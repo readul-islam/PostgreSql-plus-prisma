@@ -1,0 +1,23 @@
+SELECT : Retrieves data from one or more tables.
+FROM : Specifies the table from which to retrieve data.
+WHERE: Filters data based on specified conditions.
+ORDER BY:Sort the result set based on specified columns.
+GROUP BY: GROUP rows that have the same values in specified columns.
+HAVING: Filters the results of a GROUP BY clause based on specified conditions.
+JOIN: Combines rows from two or more tables based on a related column.
+DISTINCT: Returns unique values in the result set.
+LIMIT : Specifies the maximum number of rows to return.
+OFFSET: Specifies the minimum number of rows to skip before stating to return rows.
+
+@Scalar Function:
+Upper() convert a string to upperCase.
+Lower() convert a string to lowerCase.
+Concat() Concatenates two or more string.
+Length() returns the length of characters in the string.
+
+@Aggregate Function:
+Avg() Calculate the average of a set of values.
+Max() return the maximum value in a set.
+Min() return the minimum value in a set.
+Sum() Calculates the sum of values in a set.
+Count() Counts the number of rows in a set.
